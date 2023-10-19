@@ -1,0 +1,73 @@
+
+body{
+    background:url(./images/bgr3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: unset;
+    width: unset;
+}
+
+h2{
+    color: black;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.container{
+    border: .1rem;
+    width:100%;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+.container form .inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container form .inputbox .input{
+    width: 49%
+}
+
+.container form .inputbox .input span{
+    display: block;
+    padding: .5rem 0;
+    font-size: 15px;
+    color: white;
+}
+
+.container form .inputbox .input input,
+.container form .inputbox .input textarea{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    width: 95%;
+    box-sizing: border-box;
+    color: black;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+
+.btn{
+    padding: 6px;
+    font-family: 'Lora', serif ;
+    align-items: center;
+    
+}
+.container .btn{
+    left: 50%;
+    background: white;
+}
+.btn:hover{
+    background: grey;
+}

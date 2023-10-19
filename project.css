@@ -1,0 +1,625 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* navbar style */
+
+.head{
+  position: fixed;
+  width: 100%;
+  z-index: infinite;
+}
+.navbar{
+  display: flex;
+  background:white;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.right {
+  margin: 0 2.5rem;
+  
+}
+.right span{
+  color: red;
+}
+.right span:visited{
+  color: green;
+
+}
+.right a {
+  margin: 0px 15px;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  color:black;
+  font-size: 1.2rem;
+}
+.right a:hover{
+  color: red;
+  background: black;
+  transition: all ease 0.3s;
+  padding: 8px;
+  border-radius: 6px;
+}
+#span{
+  color: red;
+}
+.logo i{
+  padding: 5px;
+  color: black;
+}
+
+.left {
+  margin: 0 5rem;
+  color: black;
+  font-family: 'Lora', serif;
+}
+
+/* section style */
+
+#section{
+  background: url(./images/H1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.heading {
+  padding-top: 10rem;
+  margin:  auto;
+  text-align: center;
+  color: white;
+}
+ .heading p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+} 
+.heading h1 {
+  font-size: 4.2rem;
+} 
+ .btn {
+  margin: 1.2rem 0;
+}
+#btn {
+  padding: 4px 12px;
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 12px;
+  background-color: white;
+  font-weight:450;
+  font-size: 1.1rem; 
+  cursor: pointer;
+} 
+#btn:hover{
+transition: all ease 0.3s;
+ background-color: grey;
+ color: black;
+ border: 2px solid black;
+}
+
+/* sec style */
+
+
+.div-2 {
+  display: flex;
+}
+#About {
+  margin-top: 3rem;
+  height: 100vh;
+  width: 100%;
+  background: white;
+}
+.left-1 {
+  height: 300px;
+  width: 500px;
+  margin: 0 5rem;
+}
+.left-1 p{
+  font-size: 1.2rem;
+  color: rgb(92, 88, 88);
+}
+.left-1 h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+.right-1 {
+  margin-left: 2rem;
+  border-radius: 3px;
+}
+
+.right-1 img:hover{
+  box-shadow: 0 0  15px 0 red;
+  transition: all ease 0.3s;
+}
+
+
+/* sec-1 style */
+
+
+#menu {
+  width: 100%;
+  height: 100vh;
+}
+
+.heading-1{
+    text-align: center;
+}
+.heading-1 span{
+  color: red;
+}
+.heading-1 h1{
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.heading-1 p{
+  color: rgb(53, 51, 51);
+  font-size: 1.2rem;
+}
+.cards{
+    display: flex;
+}
+.addcard , .cards{
+    display: flex;
+   justify-content: center;
+}
+.card-1{
+    width: 300px;
+    height: 250px;
+    margin: 15px 15px;
+    border-radius: 5px;
+}
+
+.card-1:hover{
+ box-shadow: 0 0  15px 0 red;
+ transition: all 0.3s ease;
+}
+
+#menu{
+  margin-top: -100px;
+}
+.menu{
+    width: 900px;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+}
+
+.menu h4{
+  text-align: end;
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lora', serif ;
+}
+.card1{
+    background: url(./images/menu-1.jpg);
+    background-position: center;
+    text-align: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card2{
+    background: url(./images/menu-2.jpg);
+    background-position: center;
+    text-align: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+    background: url(./images/menu-3.jpg);
+    background-position: center;
+    text-align: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card4{
+    background: url(./images/menu-4.jpg);
+    text-align: bottom center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card5{
+    background: url(./images/menu-5.png);
+    background-position: center;
+    text-align: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card6{
+    background: url(./images/menu-6.jpg);
+    background-position: center;
+    text-align: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.order
+{
+  padding: 5px;
+  display: inline-block;
+  color: black;
+  background: darkgrey;
+  border-radius: 2px;
+  font-family: 'Lora', serif;
+  align-self: center;
+  position:relative;
+}
+
+.order:hover{
+  background: grey;
+  transition: all ease 0.3s;
+}
+
+.star{
+  color: black;
+}
+
+/* sec-2 style */
+
+
+#Expert{
+  height: 100vh;
+  margin-top: 29rem;
+}
+.kit h1{
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.kit h1 span{
+  color: red;
+}
+.div-4
+{
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  margin-top: 2rem;
+}
+.div-4 .img{
+  width: 300px;
+  height: 290px;
+  margin: 12px 12px;
+  border-radius: 5px;
+}
+.div-4 .img:hover{
+  box-shadow: 0 0  15px 0 rgb(203, 240, 203)  ,0 0  15px 0 black;
+  transition: all 0.3s ease;
+}
+
+.img-1{
+  background: url(./images/Kxp1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.img-2{
+  background: url(./images/ktep2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.img-3{
+  background: url(./images/ktxp3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.img-4{
+  background: url(./images/ktxp4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.kit{
+  text-align: center;
+}
+
+/* sec-3 style  */
+
+
+
+.sec-3{
+  background: url(./images/menu-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+}
+.SlastH{
+  text-align: center;
+}
+.SlastH h1{
+  color: white;
+  margin-top: -4rem;
+  line-height: 1.5rem;
+  padding-top: 1.4rem;
+}
+.SlastH h1 span{
+  color: red;
+  font-size: 1.8rem;
+}
+.para{
+  color: white;
+  margin-top: 1.3rem;
+}
+.sameproperty{
+  width: 290px;
+  height: 350px;
+  background-color: white;
+  border-radius: 5px;
+}
+.sameproperty:hover{
+  box-shadow: 0 0  15px 0 red  ,0 0  15px 0 black;
+  transition: all 0.3s ease;
+}
+.lastcard{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.clientimg-1{
+  width: 70px;
+  height: 70px;
+  background: url(./images/client-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.clientimg-2{
+  width: 70px;
+  height: 70px;
+  background: url(./images/client-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.lastcard-2{
+margin-left: 2rem;
+margin-right: 2rem;
+}
+.clientimg-3{
+  width: 70px;
+  height: 70px;
+  background: url(./images/client-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.sameproperty h3{
+  text-align: center;
+  margin-top: 1.7rem;
+  color: red;
+}
+.clientimg{
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 4rem;
+}
+
+.sameproperty p{
+  margin-top: 2rem;
+  color: rgb(63, 61, 61);
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+
+/* sec style */
+
+
+#Location{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  margin-top: 3rem;
+}
+#Location h1{
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+#Location h1 span{
+  color: red;
+}
+.location{
+  display: flex;
+  justify-content: center;
+}
+.place{
+  width: 320px;
+  height: 360px;
+  margin: 1.3rem 1.3rem;
+  border-radius: 5px;
+}
+.place:hover{
+  box-shadow: 0 0  15px 0 greenyellow  ,0 0  15px 0 black;
+  transition: all 0.3s ease;
+}
+.delhi{
+  background: url(./images/loaction-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.Jhansi{
+  background: url(./images/location-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.Mumbai{
+  background: url(./images/location-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+
+
+/* foot style */
+
+
+
+#Contact{
+  width: 100%;
+  height: 100vh;
+  background: url(./images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center
+}
+.contact{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+ .contact h1{
+  padding-top: 2rem;
+} 
+.contact h1 span{
+  color: red;
+}
+.contact p{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+.form{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin: 3rem 3rem;
+  text-align: center;
+  padding: 5rem 1.5rem;
+  margin: auto;
+
+}
+.lastbtn{
+  padding: 4px 28px;
+  border-radius: 10px;
+  font-family: 'Lora', serif;
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 1rem;
+  background-color:  red;
+}
+.lastbtn:hover{
+  transition: all 0.3s ease;
+   background-color: grey;
+   color: black;
+   border: 2px solid black;
+  }
+.form h4{
+  font-size: 1.7rem;
+  margin-top: -20px;
+}
+.button{
+  margin: 1.3rem 0;
+}
+input[type="text"]{
+  width: 400px;
+  height: 35px;
+  margin-bottom:1.0rem ;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+input[type="number"]{
+  width: 400px;
+  height: 35px;
+  margin-bottom:1.0rem ;
+  border: 1.5px solid black;
+}
+input[placeholder="Name"]{
+  font-family: 'Lora', serif;
+  margin-top: 10px;
+  padding: 2px 7px;
+}
+input[placeholder="Email"]{
+  font-family: 'Lora', serif;
+  padding: 2px 7px;
+}
+input[placeholder="Message"]{
+  font-family: 'Lora', serif;
+  padding: 2px 7px;
+}
+input[placeholder="Phone No."]{
+  font-family: 'Lora', serif;
+  padding: 2px 7px;
+  margin-top: 1rem;
+}
+input[type="text-1"]{
+  width: 400px;
+  height: 45px;
+  margin-top: 1.0rem;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+input[type="email"]{
+  width: 400px;
+  height: 35px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* lastfooter style */
+
+
+
+.ft{
+
+  width: 100%;
+  height: 180px;
+  margin-top: -32px;
+}
+.lasticons{
+  text-align: center;
+  margin-top: 30px;
+}
+.gap{
+  margin: 15px;
+  /* margin-top: -100px; */
+}
+
+.last-logo{
+  text-align: center;
+  margin-top: 55px;
+}
+
+.last-logo span{
+  color: red;
+}
+.last-logo p{
+  margin-top: 10px;
+}
+
+/* name style */
+
+.name{
+  position: relative;
+}
+.lastname
+{
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+}
+
